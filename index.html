@@ -1,0 +1,22 @@
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Boostrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Boostrap 4</title>
+</head>
+<body>
+    <button type="button" class="btn btn-lg btn-danger" data-toggle="popover"
+            title="Selamat! Anda Berhasil Setup Boostrap 4" data-content="Jika Popup ini terlihat, anda berhasil setup dan Siap belajar Boostrap">Klik Aku!</button>
+    <!--jQuery dulu, kemudian Popper.js, kemudian Boostrap.js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(function() {
+            // contoh
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+</body>
+</html>
